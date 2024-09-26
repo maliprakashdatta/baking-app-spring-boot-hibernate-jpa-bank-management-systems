@@ -70,10 +70,11 @@ curl --location --request PUT 'http://localhost:8087/api/accounts/3/withdraw' \
 <image src="https://github.com/user-attachments/assets/b6913896-f2c2-4275-b485-d0f6ccc98afc" width="750" height="350">
     
 # SQL  
+only creating Schema db
 ```shell
 SELECT * FROM accountdepositandwithdrawl.accounts;
 ```
 
-# withdraw Screen
+# MySql Database Screen
 <image src="https://github.com/user-attachments/assets/e50169b5-4fe6-4f1d-ab29-5a26b8670c4f" width="750" height="350">
 
