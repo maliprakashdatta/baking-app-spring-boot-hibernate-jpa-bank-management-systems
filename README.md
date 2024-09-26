@@ -48,6 +48,24 @@ curl --location --request PUT 'http://localhost:8087/api/accounts/3/deposit' \
     }'
 ```
 
-# Deposit GET Screen 
+# Deposit Screen 
 
 <image src="https://github.com/user-attachments/assets/20ccec6d-9509-43ef-a71a-92e450628266" width="750" height="350">
+
+
+# Account Deposit 
+## withdraw PUT amount 
+http://localhost:8087/api/accounts/3/deposit
+```shell
+curl --location --request PUT 'http://localhost:8087/api/accounts/3/withdraw' \
+--header 'Content-Type: application/json' \
+--data '{
+    "amount": 2000.0
+
+    }'
+```
+
+# withdraw Screen 
+
+<image src="" width="750" height="350">
+
