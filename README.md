@@ -47,3 +47,7 @@ curl --location --request PUT 'http://localhost:8087/api/accounts/3/deposit' \
 
     }'
 ```
+
+# Deposit GET Screen 
+
+<image src="https://github.com/user-attachments/assets/20ccec6d-9509-43ef-a71a-92e450628266" width="750" height="350">
