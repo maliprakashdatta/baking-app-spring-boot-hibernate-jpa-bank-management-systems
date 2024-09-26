@@ -1,7 +1,9 @@
 package com.example.mapper;
 import com.example.dto.AccountDto;
 import com.example.entity.Account;
+import org.springframework.jmx.export.annotation.ManagedResource;
 
+@ManagedResource
 public class AccountMapper
 {
     public static Account mapToAccount(AccountDto accountDto)

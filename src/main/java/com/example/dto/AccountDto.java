@@ -7,6 +7,8 @@ public class AccountDto {
 
     private Long id;
     private Long accountNumber;
+
+
     private String accountHolderName;
     private Double balance;
     private Long customerId;
