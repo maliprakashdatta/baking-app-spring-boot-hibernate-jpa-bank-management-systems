@@ -55,7 +55,7 @@ curl --location --request PUT 'http://localhost:8087/api/accounts/3/deposit' \
 
 # Account Deposit 
 ## withdraw PUT amount 
-http://localhost:8087/api/accounts/3/deposit
+http://localhost:8087/api/accounts/3/withdraw
 ```shell
 curl --location --request PUT 'http://localhost:8087/api/accounts/3/withdraw' \
 --header 'Content-Type: application/json' \
