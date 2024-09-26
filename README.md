@@ -31,7 +31,7 @@ curl --location 'http://localhost:8087/api/accounts' \
     
      "accountNumber":103,
       "accountHolderName":"vikas",
-      "balance":5000,
+      "balance":6000,
        "customerId":1
 }
 }'
