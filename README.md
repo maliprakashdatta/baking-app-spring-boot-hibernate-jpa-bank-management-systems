@@ -67,5 +67,5 @@ curl --location --request PUT 'http://localhost:8087/api/accounts/3/withdraw' \
 
 # withdraw Screen 
 
-<image src="" width="750" height="350">
+<image src="https://github.com/user-attachments/assets/b6913896-f2c2-4275-b485-d0f6ccc98afc" width="750" height="350">
 
