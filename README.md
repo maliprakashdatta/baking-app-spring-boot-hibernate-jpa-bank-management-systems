@@ -36,3 +36,14 @@ curl --location 'http://localhost:8087/api/accounts' \
 }
 }'
 ```
+# Account Deposit 
+## Deposit PUT amount 
+http://localhost:8087/api/accounts/3/deposit
+```shell
+curl --location --request PUT 'http://localhost:8087/api/accounts/3/deposit' \
+--header 'Content-Type: application/json' \
+--data '{
+    "amount": 6000.0
+
+    }'
+```
