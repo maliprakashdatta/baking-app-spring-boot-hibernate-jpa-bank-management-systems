@@ -29,7 +29,7 @@ public class Account
     private  Double balance;
 
     @ToString.Exclude
-    private   Long customerId;
+    private  Long customerId;
 
     @ToString.Exclude
     @CreatedDate
@@ -40,18 +40,16 @@ public class Account
     @CreatedDate
     @LastModifiedDate
     private LocalDateTime updatedTime;
-//
-//    public Account(Long accountNumber, String accountHolderName, double balance, Long customerId){
-//        this.accountNumber = accountNumber;
-//        this.accountHolderName = accountHolderName;
-//        this.balance = balance;
-//        this.customerId = customerId;
-//    }
 
-    public Account(Long id, Long accountNumber, String accountHolderName, Double balance, Long customerId)
-    {
-
+    public Account(Long id, Long accountNumber, String accountHolderName, Double balance, Long customerId) {
+        this.id = id;
+        this.accountNumber = accountNumber;
+        this.accountHolderName = accountHolderName;
+        this.balance = balance;
+        this.customerId = customerId;
     }
+
+
 }
 
 
