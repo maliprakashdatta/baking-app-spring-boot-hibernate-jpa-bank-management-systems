@@ -33,14 +33,14 @@ mvn clean spring-boot:run
 You can create the project in IntelliJ IDEA, Spring Initializr, or manually through Maven. Here, I'll guide you through both IntelliJ IDEA and Spring Initializr.
 
 Option A: Using Spring Initializr
-Go to Spring Initializr.
-Configure the project:
-Project: Maven Project
-Language: Java
-Spring Boot Version: Latest stable version (e.g., 3.x.x)
-Group: com.example
-Artifact: project (or your preferred name)
-Packaging: Jar
+Go to Spring Initializr.</br>
+Configure the project:</br>
+Project: Maven Project</br>
+Language: Java</br>
+Spring Boot Version: Latest stable version (e.g., 3.x.x)</br>
+Group: com.example</br>
+Artifact: project (or your preferred name)</br>
+Packaging: Jar</br>
 Java: 17 or higher
 
 # Tree Structure of Project
