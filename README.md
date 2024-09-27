@@ -22,6 +22,13 @@ mvn clean install
 ```shell
 mvn clean spring-boot:run
 ```
+## Technology used
+
+1)Spring Boot
+2)Hibernate JPA
+3)Lombok
+4)MySQL
+
 # Tree Structure of Project
 ```shell
 ├── src
