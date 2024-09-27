@@ -29,6 +29,20 @@ mvn clean spring-boot:run
 3)Lombok</br>
 4)MySQL
 
+## 1. Create a New Spring Boot Project
+You can create the project in IntelliJ IDEA, Spring Initializr, or manually through Maven. Here, I'll guide you through both IntelliJ IDEA and Spring Initializr.
+
+Option A: Using Spring Initializr
+Go to Spring Initializr.
+Configure the project:
+Project: Maven Project
+Language: Java
+Spring Boot Version: Latest stable version (e.g., 3.x.x)
+Group: com.example
+Artifact: project (or your preferred name)
+Packaging: Jar
+Java: 17 or higher
+
 # Tree Structure of Project
 ```shell
 ├── src
