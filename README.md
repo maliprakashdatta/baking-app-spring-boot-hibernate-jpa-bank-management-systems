@@ -22,6 +22,42 @@ mvn clean install
 ```shell
 mvn clean spring-boot:run
 ```
+# Tree Structure of Project
+```shell
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── project
+│   │   │               ├── ProjectApplication.java       # Main application class
+│   │   │               ├── controller
+│   │   │               │   └── AccountController.java    # Controller for account-related endpoints
+│   │   │               ├── dto
+│   │   │               │   └── AccountDTO.java           # Data Transfer Object for Account entity
+│   │   │               ├── entity
+│   │   │               │   └── Account.java              # Entity class representing the Account table
+│   │   │               ├── service
+│   │   │               │   ├── AccountService.java       # Service interface for business logic
+│   │   │               │   └── impl
+│   │   │               │       └── AccountServiceImpl.java  # Service implementation class
+│   │   │               ├── repository
+│   │   │               │   └── AccountRepository.java    # Repository interface for database operations
+│   │   │               └── exception
+│   │   │                   └── ResourceNotFoundException.java  # Custom exception for handling not found errors
+│   │   ├── resources
+│   │   │   ├── application.properties                    # Application configuration file
+│   │   │   └── data.sql                                  # Initial database data for Account
+│   │   └── static                                         
+│   │   └── templates                                     # If you use JSP/Thymeleaf templates
+│   └── test
+│       └── java
+│           └── com
+│               └── example
+│                   └── project
+│                       └── AccountServiceTest.java       # Unit tests for Account service
+
+```
 # Account Creation
 ## Account  POST Data
 http://localhost:8087/api/accounts
