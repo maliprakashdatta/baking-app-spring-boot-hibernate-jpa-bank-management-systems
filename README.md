@@ -24,9 +24,9 @@ mvn clean spring-boot:run
 ```
 ## Technology used
 
-1)Spring Boot
-2)Hibernate JPA
-3)Lombok
+1)Spring Boot</br>
+2)Hibernate JPA</br>
+3)Lombok</br>
 4)MySQL
 
 # Tree Structure of Project
