@@ -45,7 +45,7 @@ You can create the project in IntelliJ IDEA, Spring Initializr, or manually thro
 <ul>
 
 ## Add Dependencies:
-->Spring Web: For building web applications (REST controllers).<br>
+-><h6>Spring Web:</h6> For building web applications (REST controllers).<br>
 ->Spring Data JPA: For interacting with databases using Hibernate.<br>
 ->Spring Boot DevTools (optional): For faster development with hot reload.<br>
 ->MySQL Driver (or any database you want to use).<br>
