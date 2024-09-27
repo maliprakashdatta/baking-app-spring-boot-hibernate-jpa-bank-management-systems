@@ -44,6 +44,14 @@ You can create the project in IntelliJ IDEA, Spring Initializr, or manually thro
 <li>Java: 17 or higher</li>
 <ul>
 
+## Add Dependencies:
+->Spring Web: For building web applications (REST controllers).<br>
+->Spring Data JPA: For interacting with databases using Hibernate.<br>
+->Spring Boot DevTools (optional): For faster development with hot reload.<br>
+->MySQL Driver (or any database you want to use).<br>
+->Lombok (optional): For reducing boilerplate code like getters, setters, etc.<br>
+->Click Generate to download the project, and extract the zip.<br>
+
 # Tree Structure of Project
 ```shell
 ├── src
