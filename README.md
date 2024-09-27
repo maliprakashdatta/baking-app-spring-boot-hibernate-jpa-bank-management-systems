@@ -84,6 +84,5 @@ SELECT * FROM accountdepositandwithdrawl.accounts;
 
 ## getAllAccounts Database 
 http://localhost:8087/api/accounts
-```shell
 
-```
+<image src="https://github.com/user-attachments/assets/96601b24-eca5-4bac-b283-0775848c3f66" width="750" height="350">
