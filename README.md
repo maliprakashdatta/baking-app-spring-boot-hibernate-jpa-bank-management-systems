@@ -52,6 +52,13 @@ You can create the project in IntelliJ IDEA, Spring Initializr, or manually thro
 ->Lombok (optional): For reducing boilerplate code like getters, setters, etc.<br>
 ->Click Generate to download the project, and extract the zip.<br>
 
+## Configure application.properties
+```shell
+spring.datasource.url=jdbc:mysql://localhost:3306/your_db_name
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+```
 # Tree Structure of Project
 ```shell
 ├── src
