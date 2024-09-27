@@ -37,7 +37,7 @@ You can create the project in IntelliJ IDEA, Spring Initializr, or manually thro
 <li>Configure the project:</li></br>
 <li>Project: Maven Project</li></br>
 <li>Language: Java io</li></br>
-<li>Spring Boot Version: Latest stable versn (e.g., 3.x.x)</li></br>
+<li>Spring Boot Version: Latest stable versn (e.g., 3.3.3)</li></br>
 <li>Group: com.example</li></br>
 <li>Artifact: project (or your preferred name)</li></br>
 <li>Packaging: Jar</li></br>
