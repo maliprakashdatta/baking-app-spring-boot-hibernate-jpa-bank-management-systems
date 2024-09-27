@@ -79,3 +79,11 @@ SELECT * FROM accountdepositandwithdrawl.accounts;
 # MySql Database Screen
 <image src="https://github.com/user-attachments/assets/e50169b5-4fe6-4f1d-ab29-5a26b8670c4f" width="750" height="350">
 
+
+
+
+# getAllAccounts Database 
+http://localhost:8087/api/accounts
+```shell
+
+```
